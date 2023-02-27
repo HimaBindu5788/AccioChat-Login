@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin:0;
+    font-family: 'Poppins', sans-serif; 
+}
+.login-container{
+    width:100%;
+    height:100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.login-avatar{
+    width:50%;
+    
+}
+.login-avatar img{
+    max-width: 600px;
+}
+.login-form{
+    width: 50%;
+    height: 100%;
+    background-color: #6c63ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.login-form-container{
+    max-width: 450px;
+    margin:10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login-form-header h1{
+    font-size: 64px !important;
+    margin-bottom: 32px;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.25);
+
+}
+.login-form-input{
+    margin-bottom: 24px;
+}
+.input-warning{
+    padding: 6px 6px;
+    color: rgb(90, 2, 2);
+}
+.login-form-input input{
+    border: none;
+    width:300px;
+    font-size: 18px;
+    padding: 8px;
+    border-radius: 10px;
+}
+.login-form-input input:focus{     /* "focus" ante text box lo cursor place chesi click cheste, box lopala chuttu boder property lo */
+    outline:none;                 /* ichina color ostadi*/            
+    border:2px solid #4d44ff;
+}
+.login-form-button button{
+    border: none;
+    font-size: 18px;
+    padding: 8px;
+    width:300px;
+    border-radius: 10px;
+    background-color: #3126ff;
+    color: white;
+    cursor: pointer;
+}
+.login-form-button button:hover{
+    background-color: white;
+    color: #3126ff;
+}
+
